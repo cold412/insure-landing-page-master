@@ -52,5 +52,38 @@
 
 
 @media only screen and (max-width: 375px) {
+  .nav{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+
+    .nav__logo{
+      display: flex;
+      justify-content: space-around;
+      width: 100vw;
+      padding-bottom: 3vh;
+    }
+
+    .nav__menu{
+      ul{
+        flex-direction: column;
+      background-color: $DarkViolet;
+      height: 30vh;
+      width: 100vw;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      li{
+        padding-left: 0;
+        padding-right: 0;
+      }
+      }
+    }
+  }
+  .bars-active{
+    display: flex;
+  }
+
+
 }
 
