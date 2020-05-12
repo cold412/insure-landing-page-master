@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* ## Colors
+
+### Primary */
+/* ### Neutral */
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4vh;
+  width: 100vw;
+  padding-left: 10vh;
+  padding-right: 10vh;
+}
+
+.nav .nav__menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav .nav__menu ul li {
+  list-style: none;
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
+  padding-left: 5vw;
+}
+
+/* @import '3.pages/' */
+.page1, .page2, .beforefooter, .footer {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */

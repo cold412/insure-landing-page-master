@@ -1,0 +1,18 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,uGAAI;ACAZ,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;CACzB;;ACHD;;cAEc;AAKd,iBAAiB;AMRjB,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;EACnB,MAAM,EAAE,GAAG;EACX,KAAK,EAAE,KAAK;ENaX,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;CMErB;;AArBD,AASI,IATA,CAQF,UAAU,CACR,EAAE,CAAC;EACC,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAQjC;;AAnBL,AAaM,IAbF,CAQF,UAAU,CACR,EAAE,CAIA,EAAE,CAAC;EACD,UAAU,EAAE,IAAI;EAChB,WAAW,ERXR,OAAO,EAAE,UAAU;EQYtB,cAAc,EAAE,SAAS;EACzB,YAAY,EAAE,GAAG;CAClB;;ATPP,wBAAwB;AAExB,AAAA,MAAM,EAAE,MAAM,EAAE,aAAa,EAAE,OAAO,CAAA;EAClC,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "main.scss",
+        "1.tools/_fonts.scss",
+        "1.tools/_normalize.scss",
+        "1.tools/_vars.scss",
+        "2.basics/_bodyElements.scss",
+        "2.basics/_buttons.scss",
+        "2.basics/_colors.scss",
+        "2.basics/_links.scss",
+        "2.basics/_typography.scss",
+        "_page1.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

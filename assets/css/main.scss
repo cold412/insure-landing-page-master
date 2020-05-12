@@ -1,0 +1,16 @@
+@import '1.tools/fonts';
+@import '1.tools/normalize';
+@import '1.tools/vars';
+@import '2.basics/bodyElements';
+@import '2.basics/buttons';
+@import '2.basics/colors';
+@import '2.basics/links';
+@import '2.basics/typography';
+@import 'page1';
+
+
+/* @import '3.pages/' */
+
+.page1, .page2, .beforefooter, .footer{
+    display: none;
+}

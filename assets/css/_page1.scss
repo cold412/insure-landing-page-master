@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4vh;
+  width: 100vw;
+      @include paddLR;
+
+  .nav__menu {
+    ul {
+        display: flex;
+        justify-content: space-between;
+
+      li {
+        list-style: none;
+        font-family: $bodyfont;
+        text-transform: uppercase;
+        padding-left: 5vw;
+      }
+    }
+  }
+}
