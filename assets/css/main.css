@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 * {
   padding: 0;
   margin: 0;
@@ -22,6 +23,7 @@
           align-items: center;
   height: 4vh;
   width: 100vw;
+  padding-top: 5vh;
   padding-left: 10vh;
   padding-right: 10vh;
 }
@@ -39,7 +41,34 @@
   list-style: none;
   font-family: "Karla", sans-serif;
   text-transform: uppercase;
-  padding-left: 5vw;
+  padding-left: 3vw;
+  color: #837d87;
+  font-weight: 700;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.nav .nav__menu ul li:hover {
+  color: #2d2640;
+}
+
+.nav .nav__menu ul .btn:hover {
+  color: white;
+}
+
+.btn {
+  padding-right: 3vw;
+  margin-left: 2vw;
+  border: 2px solid #2d2640;
+}
+
+.btn:hover {
+  background-color: #2b272f;
+  color: white;
+}
+
+.bars-active, .times-active {
+  display: none;
 }
 
 /* @import '3.pages/' */
