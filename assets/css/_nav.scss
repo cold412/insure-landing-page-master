@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 4vh;
+  height: 5vh;
+  padding-bottom: 4vh;
   width: 100vw;
   padding-top: 5vh;
       @include paddLR;
@@ -35,7 +36,7 @@
 
 .btn{
   padding-right: 3vw;
-  margin-left: 2vw;
+  margin-left: 3vw;
   border: 2px solid $DarkViolet;
 }
 

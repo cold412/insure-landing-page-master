@@ -21,7 +21,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 4vh;
+  height: 5vh;
+  padding-bottom: 4vh;
   width: 100vw;
   padding-top: 5vh;
   padding-left: 10vh;
@@ -58,7 +59,7 @@
 
 .btn {
   padding-right: 3vw;
-  margin-left: 2vw;
+  margin-left: 3vw;
   border: 2px solid #2d2640;
 }
 
@@ -123,8 +124,74 @@
   }
 }
 
+.page1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #2d2640;
+  padding-left: 10vh;
+  padding-right: 10vh;
+}
+
+.page1__left {
+  height: 70vh;
+  padding-top: 20vh;
+}
+
+.page1__left h1 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 700;
+  font-size: 4rem;
+  color: white;
+}
+
+.page1__left p {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.btnView {
+  background-color: #2d2640;
+  height: 6vh;
+  width: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid white;
+  margin-top: 4vh;
+}
+
+.btnView:hover {
+  background-color: white;
+}
+
+.btnView:hover p {
+  color: #2d2640;
+}
+
+.btnView p {
+  text-transform: uppercase;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.page1__right {
+  position: absolute;
+  left: 55vw;
+  top: 30vh;
+}
+
 /* @import '3.pages/' */
-.page1, .page2, .beforefooter, .footer {
+.page2, .beforefooter, .footer {
   display: none;
 }
 /*# sourceMappingURL=main.css.map */

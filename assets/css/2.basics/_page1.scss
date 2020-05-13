@@ -1,0 +1,49 @@
+.page1{
+    display: flex;
+    background-color: $DarkViolet;
+    @include paddLR;
+}
+
+
+
+.page1__left{
+    height: 70vh;
+    padding-top: 20vh;
+
+    h1{
+        @include H1;
+        color: white;
+    }
+    p{
+        @include P1;
+        color: white;
+    }
+}
+
+
+.btnView{
+    @include Button;
+    margin-top: 4vh;
+    &:hover{
+        background-color: white;
+        p{
+            color: $DarkViolet;
+        }
+    }
+    p{
+        text-transform: uppercase;
+        font-family: $bodyfont;
+        font-weight: 400;
+        color: white;
+    }
+    }
+
+
+
+
+
+.page1__right{
+    position: absolute;
+    left: 55vw;
+    top: 30vh;
+}

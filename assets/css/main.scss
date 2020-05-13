@@ -6,11 +6,11 @@
 @import '2.basics/colors';
 @import '2.basics/links';
 @import '2.basics/typography';
-@import 'page1';
-
+@import 'nav';
+@import '2.basics/page1';
 
 /* @import '3.pages/' */
 
-.page1, .page2, .beforefooter, .footer{
+.page2, .beforefooter, .footer{
     display: none;
 }

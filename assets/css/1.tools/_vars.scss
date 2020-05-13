@@ -19,3 +19,16 @@ $VeryLightGray: hsl(0, 0%, 98%);
    padding-left: 10vh; 
    padding-right: 10vh; 
 }
+
+
+@mixin H1 {
+  font-family: $heading;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+@mixin P1 {
+  font-family: $heading;
+  font-weight: 400;
+  font-size: 1.2rem;
+}

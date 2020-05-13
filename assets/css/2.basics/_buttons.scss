@@ -1,0 +1,11 @@
+@mixin Button {
+    background-color: $DarkViolet;
+    height: 6vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+
+
+}
