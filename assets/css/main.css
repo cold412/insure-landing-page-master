@@ -67,7 +67,11 @@
   color: white;
 }
 
-.bars-active, .times-active {
+#times-active {
+  display: none;
+}
+
+#bars-active {
   display: none;
 }
 
@@ -92,6 +96,7 @@
     padding-bottom: 3vh;
   }
   .nav .nav__menu ul {
+    display: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -111,7 +116,7 @@
     padding-left: 0;
     padding-right: 0;
   }
-  .bars-active {
+  #bars-active {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
